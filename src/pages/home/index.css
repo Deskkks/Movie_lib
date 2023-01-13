@@ -1,0 +1,34 @@
+h1 {
+  text-align: center;
+}
+
+.conteinerMovies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardMovie {
+  display: flex;
+  flex-direction: column;
+  background-color: #222;
+  width: 280px;
+  margin: 15px 10px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.cardMovie > * {
+  padding-top: 7px;
+}
+
+.cardMovie :nth-child(2) {
+  height: 60px;
+}
+
+.cardMovie button {
+  height: 30px;
+  width: 100%;
+}

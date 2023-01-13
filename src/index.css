@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #000;
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  background-color: #fef545;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+button:hover{
+  background-color: #222;
+  border: 1px solid #fef545;
+  color: #fef545;
+}
+
+svg{
+  color: #fef545;
+}
